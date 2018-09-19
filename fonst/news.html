@@ -23,16 +23,16 @@
 			.container{ overflow: hidden;}
 			.rods{  padding-right:20px;width: 100px;color: #fff;border-top-left-radius:3px;border-top-right-radius:3px; background: rgb(46,114,247);  line-height: 30px; text-align: center; }
 			.rod{position: relative; margin-bottom: 10px;}
-			.rodsdiv{ height: 3px; position: absolute; bottom: 0px; background: rgb(46,114,247) ; width: 100%; }
+			.rodsdiv{ height: 2px; position: absolute; bottom: 0px; background: rgb(46,114,247) ; width: 100%; }
 			.col-xs-12{ line-height: 20px; margin-bottom: 10px; }
 			.container{ margin: 0 auto; }
 			.col-xs-12>div,.col-xs-12>a{ padding-left: 20px;}
 			.box{ margin-top: 60px;}
 			.col-xs-12>.color_font_one{ margin-left:20px;color:rgb(46,114,247); font-weight: 900; line-height:26px ;font-size:16px; padding-left: 30px; background-image: url("img/blue.png"); background-repeat: no-repeat;}
 			.container-fluid{ padding-left: 0;}
-			.z .col-xs-12 span{ color: rgba(148,175,248);}
-			.l .col-xs-12 span{ color: rgba(232,174,84);}
-			.r .col-xs-12 span{color: rgba(226,96,103);}
+			.z .col-xs-12 span{ color: rgb(148,175,248);}
+			.l .col-xs-12 span{ color: rgb(232,174,84);}
+			.r .col-xs-12 span{color: rgb(226,96,103);}
 			a{ color: #000; text-decoration:underline;  }
 			.mcb{ margin-bottom: 50px;}
 			.bycolor{ background: rgb(229,160,40);}
@@ -44,7 +44,7 @@
 			.img img{ margin-right: 20px;}
 			.hot .col-xs-12>.color_font_one{ background-image: none;padding: 0;}
 			a{ padding-left: 30px;margin-left: 15px;; background-image: url("img/yun.png"); -webkit-background-size: 14px;
-			background-size: 16px;; background-repeat: no-repeat; background-position: 2px 4px; display: block;}
+			background-size: 16px;; background-repeat: no-repeat; background-position: 2px 4px; display: inline-block;}
 			.dw{ position: relative;}
 			.time{ position: absolute; bottom:20px;color: #FFFFFF;}
 			
@@ -62,25 +62,22 @@
 						</div>
 	 						
 					</div>
- 					<div class="row">
+ 					<div class="row z">
 	 						<div class="col-xs-12 rod" >
 	 						<div class="col-xs-2 rods"> <b>舆情概览</b></div>
 	 						<div class="rodsdiv"></div>
 	 						</div>
- 							<div class="col-xs-12"> <div>1.贝壳研究院首席分析师许小乐对北京公积金新政策解读的报道和引用研究院数据（转载量：1012篇）</div></div>
-							<div class="col-xs-12"><div>2.贝壳99找房节，省一点更幸福微博话题活动（转载量：743篇）</div></div>
-							<div class="col-xs-12"><div>3.贝壳估价请求突破1.4亿次落地48城（转载量：534篇）</div></div>
-							<div class="col-xs-12"><div>4.活力滨城,2018贝壳中国・社区跑大连站开跑（转载数量：26篇）</div></div>
+ 							<div class="col-xs-12"> <div>1.贝壳研究院首席分析师许小乐对北京公积金新政策解读的报道和引用研究院数据<span>（转载量：1012篇）</span></div></div>
+							<div class="col-xs-12"><div>2.贝壳99找房节，省一点更幸福微博话题活动  <span>（转载量：743篇）</span></div></div>
+							<div class="col-xs-12"><div>3.贝壳估价请求突破1.4亿次落地48城 是 <span>（转载量：534篇）</span></div></div>
+							<div class="col-xs-12"><div>4.活力滨城,2018贝壳中国・社区跑大连站开跑 <span>（转载数量：26篇）</span></div></div>
 							<div class="col-xs-12"><div>5.58同城安居客等网站再被北京住建委点名</div></div>
 							<div class="col-xs-12"><div>6.我爱我家野蛮扩张陷舆论危机,高管离职潮暗藏风险</div></div>
 							<div class="col-xs-12"><img src="img/s1.png" width="100%" alt="" /></div>
  					</div>
  					<div class="row box z">
-	 						<div class="col-xs-12 rod " >
-	 						<div class="col-xs-2 rods "> <b>贝壳舆情</b></div>
-	 						<div class="rodsdiv"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one">正面舆情</div></div>
+	 						<!--/*正面舆情*/-->
+	 						<div class="col-xs-12 rod"><img src="img/bulyes.png"  height="30px"  /><div class="rodsdiv"></div></div>
  							<div class="col-xs-12"> <div>1.贝壳研究院首席分析师许小乐对北京公积金新政策解读的报道和引用研究院数据<span>（转载量：1012篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://home.ynet.com/2018/09/14/1422189t908.html">北青网：北京公积金“认房又认贷” 专家：对刚需影响大</a></div>
 							<div class="col-xs-12"> <div>2、“贝壳99找房节，省一点更幸福”活动引发网友讨论关注转载。<span>（14日转载数量：1586篇，今日转载数量：743篇）</span></div></div>
@@ -94,12 +91,9 @@
 							<div class="col-xs-12"> <div>6、贝壳租房案例入选北京市信用大数据试点项目。<span>（转载数量：20篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://qndj.qianlong.com/show/18/115862-0.html">千龙网：贝壳租房案例入选北京市信用大数据试点项目</a></div>
  					</div>
+ 						<!--/*中性舆情*/-->
  					<div class="row box l">
-	 						<div class="col-xs-12 rod" >
-	 						
-	 						<div class="rodsdiv bycolor"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one byccolor byellow">中性舆情</div></div>
+	 						<div class="col-xs-12 rod"><img src="img/bkzhong.png"  height="30px"  /><div class="rodsdiv bycolor"></div></div>
  							<div class="col-xs-12"> <div>1、链家半月内密集转移17家旗下子公司疑为上市做准备提及贝壳。<span>（14日转载数量：55篇，今日转载数量：128篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://www.ifnews.com/17/detail-32894.html">国际金融报：左晖施展腾挪术，17家子公司低调转移，为链家上市铺路？</a></div>
 							<div class="col-xs-12"> <div>2、贝壳在香港新成立三家公司 上市步伐或加快。<span>（14日转载数量：50篇，今日转载数量：33篇）</span></div></div>
@@ -109,22 +103,16 @@
 							<div class="col-xs-12"> <div>4、长租公寓相关媒体报道简单引用贝壳研究院数据。<span>（转载数量：12篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://mp.weixin.qq.com/s?__biz=MzA3OTQ5MzU3Mw==&mid=2652798239&idx=1&sn=12124abd41eaedaaf9e5b03364e0fc04&chksm=84587db5b32ff4a3bff687c153305a5fe0a475751d2f0245f1ba64d5dd6450467ec4871fbd47&scene=0#rd">1微信公众号-爱利是：是是非非，长租公寓今后如何发展？</a></div>
  					</div>
+ 					<!--/*负面舆情*/-->
  					<div class="row box r">
-	 						<div class="col-xs-12 rod" >
-	 						
-	 						<div class="rodsdiv byfcolor"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one byfccolor bred">负面舆情</div></div>
+	 						<div class="col-xs-12 rod"><img src="img/bkred.png"  height="30px"  /><div class="rodsdiv byfcolor"></div></div>
  							<div class="col-xs-12"> <div>1、租客网故意抹黑贝壳。<span>（转载数量：17篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://www.china-org.cn/63909254028874_100231477">北方教育网：租客网：分手吧！你总是用假照片骗我</a></div>
 							<div class="col-xs-12"><div><b>发布负面信息的博客及自媒体号已进行投诉处理</b></div></div>
  					</div>
  					<div class="row box">
-	 						<div class="col-xs-12 rod" >
-	 						<div class="col-xs-2 rods"> <b>竞品舆情</b></div>
-	 						<div class="rodsdiv"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one">正面舆情</div></div>
+	 						<!--正面竞品-->
+	 						<div class="col-xs-12 rod"><img src="img/blueno.png"  height="30px"  /><div class="rodsdiv"></div></div>
 	 						<div class="col-xs-12 img"><div><img src="img/58.png" alt="" /><img src="img/ajk.png" alt="" /></div></div>
  							<div class="col-xs-12"> <div>1、58集团临感VR看房，助推郑州房产经纪行业升维。<span>（转载数量：18篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://www.xfrb.com.cn/html/zixun/haixiashichuang/liangancaijing/399006.html">消费日报网：58集团临感VR看房，助推郑州房产经纪行业升维</a></div>
@@ -148,11 +136,7 @@
  					</div>
  					
  					<div class="row box l">
-	 						<div class="col-xs-12 rod" >
-	 						
-	 						<div class="rodsdiv bycolor"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one  byccolor byellow">中性舆情</div></div>
+	 						<div class="col-xs-12 rod"><img src="img/yellowyes.png"  height="30px"  /><div class="rodsdiv bycolor"></div></div>
  							<div class="col-xs-12"> <div>1、引用58安居客房产研究院首席分析师张波对北京公积金政策调整及房地产行业的点评相关报道。<span>（转载数量：2301篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://weihai.leju.com/news/2018-09-19/06006447275518571374382.shtml">新浪网：“金九银十”势头难再房地产全链开启“促销模式”</a></div>
 							<div class="col-xs-12"><a href="https://wallstreetcn.com/articles/3407133">华尔街见闻：公积金可望不可即之后,北京楼市何往</a></div>
@@ -163,13 +147,9 @@
 							<div class="col-xs-12"><a href="http://finance.china.com.cn/industry/20180915/4761047.shtml">中国网：8月中国70城房价仅1城下跌专家:调控或加码</a></div>
 							
  					</div>
- 					
+ 					<!--负面竞品-->
  					<div class="row box r">
-	 						<div class="col-xs-12 rod " >
-	 						
-	 						<div class="rodsdiv byfcolor"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one byfccolor bred">负面舆情</div></div>
+	 						<div class="col-xs-12 rod"><img src="img/redyes.png"  height="30px"  /><div class="rodsdiv byfcolor"></div></div>
  							<div class="col-xs-12"> <div>1、58同城安居客等网站再被北京住建委点名。<span>（转载数量：965篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://www.fawan.com/2018/09/14/1422546t185.html?kuaixun">法制网：58同城安居客等网站再被北京住建委点名</a></div>
 							<div class="col-xs-12"> <div>1、58同城的假房源“顽疾”,多次被监管部门点名。<span>（转载数量：67篇）</span></div></div>
@@ -184,12 +164,11 @@
 							<div class="col-xs-12"> <div>2、我爱我家野蛮扩张陷舆论危机高管离职潮暗藏风险。<span>（转载数量：53篇）</span></div></div>
 							<div class="col-xs-12"><a href="http://finance.ifeng.com/a/20180917/16510123_0.shtml">凤凰网：我爱我家野蛮扩张陷舆论危机,高管离职潮暗藏风险</a></div>
 							</div>
-							<div class="row box hot">
-	 						<div class="col-xs-12 rod" >
-	 						<div class="col-xs-2 rods"> <b>今日热点</b></div>
-	 						<div class="rodsdiv"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one">【房产】</div></div>
+					
+					<div class="row box hot">
+	 							<!--今日热点  房产-->
+	 						
+	 						<div class="col-xs-12 rod"><img src="img/homse.png"  height="30px"  /><div class="rodsdiv"></div></div>
  							<div class="col-xs-12"> <a href="http://epaper.bjbusiness.com.cn/site1/bjsb/html/2018-09/17/content_409502.htm?div=-1">北京商报：8月房价总体微涨 调控难松绑 </a></div>
 							<div class="col-xs-12"> <div>摘要：国家统计局9月16日发布8月70个大中城市商品住宅销售价格变动情况。从数据看，8月70个城市新建商品住宅价格指数环比增幅为1.5%，同比增幅为8%。数据显示，8月，67个城市房价环比上涨，北京、南京新房价格环比持平，仅厦门1个城市下跌，跌0.1%。二手房方面，厦门、上海环比微跌，北京、锦州持平，其他城市全部上涨。
 							</div></div>
@@ -200,10 +179,8 @@
  					</div>
  					
  						<div class="row box hot">
-	 						<div class="col-xs-12 rod" >
-	 						<div class="rodsdiv"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one">【民生】</div></div>
+ 							<!--民生-->
+	 						<div class="col-xs-12 rod"><img src="img/peple.png"  height="30px"  /><div class="rodsdiv"></div></div>
  							<div class="col-xs-12"> <a href="http://epaper.bjbusiness.com.cn/site1/bjsb/html/2018-09/17/content_409504.htm?div=-1">北京商报：新周期临近 肉价有望稳中趋降 </a></div>
 							<div class="col-xs-12"> <div>摘要：8月以来，受高温、台风等季节性因素影响，北京市场猪肉价格出现波动，新一轮“猪周期”或将提前到来。不过，多位业内人士向北京商报记者表示，随着季节性因素影响的消退，同时非洲猪瘟疫情得到有效控制， 9-10月全国生猪供给将明显增多，猪肉价格或将出现回落，未来猪肉价格总体趋势将呈现稳中有降的态势。
 							</div></div>
@@ -213,10 +190,8 @@
  					</div>
  					
  					<div class="row box hot">
-	 						<div class="col-xs-12 rod" >
-	 						<div class="rodsdiv"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one">【互联网】</div></div>
+	 						<!--it-->
+	 						<div class="col-xs-12 rod"><img src="img/it.png"  height="30px"  /><div class="rodsdiv"></div></div>
  							<div class="col-xs-12"> <a href="http://wemedia.ifeng.com/78662072/wemedia.shtml">凤凰网：上市在即 美团点评陷入超级应用大战  </a></div>
 							<div class="col-xs-12"> <div>摘要：据路透社北京时间9月17日报道，美团点评将于本周正式登陆港交所，融资42亿美元。它是中国超级应用之一，有3.4亿用户通过它订购食品杂货、支付账单、租用单车、预订酒店。不过，它还面临其他超级应用的竞争。
 							</div></div>
@@ -225,10 +200,8 @@
 							</div></div>
  					</div>
  					<div class="row box hot">
-	 						<div class="col-xs-12 rod" >
-	 						<div class="rodsdiv"></div>
-	 						</div>
-	 						<div class="col-xs-12"><div class="color_font_one">【政策】</div></div>
+ 						<!--政策-->
+	 						<div class="col-xs-12 rod"><img src="img/zc.png"  height="30px"  /><div class="rodsdiv"></div></div>
  							<div class="col-xs-12"> <a href="http://paper.people.com.cn/rmrb/html/2018-09/17/nw.D110000renmrb_20180917_5-02.htm">人民日报：北京明确2020年空气质量改善目标</a></div>
 							<div class="col-xs-12"> <div>摘要：《北京市打赢蓝天保卫战三年行动计划》日前正式发布实施。计划明确，到2020年，北京市环境空气质量改善目标在“十三五”规划目标基础上进一步提高，氮氧化物、挥发性有机物比2015年减排30%以上；重污染天数比率比2015年下降25%以上。
 							</div></div>
