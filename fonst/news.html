@@ -29,7 +29,7 @@
 			.col-xs-12>div,.col-xs-12>a{ padding-left: 20px;}
 			.box{ margin-top: 60px;}
 			.col-xs-12>.color_font_one{ margin-left:20px;color:rgb(46,114,247); font-weight: 900; line-height:26px ;font-size:16px; padding-left: 30px; background-image: url("img/blue.png"); background-repeat: no-repeat;}
-			.container-fluid{ padding-left: 0;padding-right: 0;}
+			.container-fluid{ padding-left: 0; padding-right: 0;}
 			.z .col-xs-12 span{ color: rgb(148,175,248);}
 			.l .col-xs-12 span{ color: rgb(232,174,84);}
 			.r .col-xs-12 span{color: rgb(226,96,103);}
@@ -59,7 +59,7 @@
 			.times{ box-sizing: border-box;}
 		</style>
 	</head>
-	<body>
+	<body class="body">
 		<header>
 			<div style="display:none"><img src='img/x.png' width="300px" height="300px" /></div>
 			<div class="container">
@@ -70,7 +70,7 @@
 							<div class="time">9月14日14:00-9月15日14:00</div>
 							<script>
 								var k = document.querySelector(".time");
-								var ks = document.querySelector("#time");
+								var ks = document.querySelector(".body");
 								
 								k.style.left=((ks.clientWidth/2)-(k.clientWidth/2))+"px"
 								
