@@ -72,9 +72,10 @@
 							<script>
 								function asd (){
 								var k = document.querySelector(".time");
-								var ks = document.querySelector(".body");
-								
-								k.style.left=((ks.clientWidth/2)-(k.clientWidth/2))+"px"
+								var ks = document.querySelector("#time");
+								var fg = (ks.clientWidth/2)-(k.clientWidth/2)
+								k.style.left=fg+"px"
+								console.log(fg)
 								}
 								setTimeout("asd()",10)
 								
