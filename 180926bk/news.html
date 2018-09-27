@@ -58,26 +58,29 @@
 			.img img{ padding-top: 10px;padding-bottom: 10px;}
 			.row .col-xs-12 .roda{ color: #000000; }
 			.times{ box-sizing: border-box;}
+			.timeeigt{ text-align: center;}
 		</style>
 	</head>
 	<body class="body">
 		<header>
 			<div style="display:none"><img src='img/x.png' width="300px" height="300px" /></div>
 			<div class="container">
-				<div class="container-fluid">
+				<div class="container-fluid times">
 					<div class="row">
 						<div class="col-xs-12 mcb dw times">
 							<img src="img/home.png" width="100%" id="time" alt="" />
-							<div class="time">9月25日14:00-9月26日14:00</div>
+							<div class="time timeeigt">9月25日14:00-9月26日14:00</div>
 							<script>
 								function asd (){
-								var k = document.querySelector(".time");
+								
 								var ks = document.querySelector("#time");
-								var fg = (ks.clientWidth/2)-(k.clientWidth/2)
-								k.style.left=fg+"px"
-								console.log(fg)
+								var kc = document.querySelector(".timeeigt");
+								var fg = ks.clientWidth/2;
+								var fd = 184/2;;
+								kc.style.left=fg-fd+15+"px"
+								console.log(fg,fd)
 								}
-								setTimeout("asd()",10)
+								setTimeout("asd()",100)
 								
 							</script>
 						</div>
