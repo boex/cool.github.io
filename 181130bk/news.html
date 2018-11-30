@@ -276,8 +276,8 @@
  							<div class="col-xs-12"> <a href="http://house.people.com.cn/n1/2018/1129/c164220-30431808.html">人民网：深圳城市更新新规12月起实施 项目不少于15%土地交政府</a></div>
 							<div class="col-xs-12"> <div>摘要：《深圳市拆除重建类城市更新单元土地信息核查及历史用地处置规定》将于12月1日起实施。《规定》提出，城市更新项目要把不少于15%的土地无偿移交政府，优先用于落实城市基础设施、公共服务设施、城市公共利益项目等。
 							</div></div>
-							<div class="col-xs-12"><a href="http://epaper.cqrb.cn/html/cqrb/2018-11/29/004/content_219054.htm">重庆日报：上市仿制药同等纳入医保支付范围</a></div>
-							<div class="col-xs-12"> <div>摘要：重庆市人民政府办公厅印发了《重庆市改革完善仿制药供应保障及使用政策实施方案》。按照《方案》，我市将及时更新医保信息系统，确保批准上市的仿制药同等纳入医保支付范围。
+							<div class="col-xs-12"><a href="http://www.jjckb.cn/2018-10/22/c_137549173.htm">经济参考报：个税六项附加扣除标准浮出水面</a></div>
+							<div class="col-xs-12"> <div>摘要：财政部网站发布了财政部、国家税务总局会同有关部门起草的《个人所得税专项附加扣除暂行办法》，开始为期两周的公开征求意见。征求意见稿中，对六项专项附加扣除的范围和标准都做出明确规定。
 							</div></div>
  					</div>
 							
@@ -286,5 +286,46 @@
 				</div>
 			</div>
 		</header>
+		
+		<div class='keys'>
+				<div class="key">
+					<div>
+						请输入密码
+						<br /> <br />
+						<input class="ops">
+							
+						</input>
+						<div id="opo">
+							确认
+						</div>
+					</div>
+			    </div>
+	    </div>
+	<script>
+		var opo = document.querySelector('#opo')
+		opo.ontouchstart=function(){
+			var keys = document.querySelector('.keys')
+			var opo = document.querySelector('.ops')
+			var body = document.querySelector('.body')
+			
+			if(opo.value=='bk2018'){
+				keys.style.display='none'
+				body.style.overflow='auto'
+			}
+			
+		}
+	opo.addEventListener('click', function () {               
+			var keys = document.querySelector('.keys')
+			var opo = document.querySelector('.ops')
+			var body = document.querySelector('.body')
+			
+			if(opo.value=='hongboge'){
+				keys.style.display='none'
+				body.style.overflow='auto'
+			}
+       
+
+});
+	</script>
 	</body>
 </html>
